@@ -7,7 +7,7 @@ Etudiant::afficherNombreEtudiants();
 
 $etudiant1 = new Etudiant("Antoinette Mentor", array(8, 12, 10, 8, 10, 12, 14, 6));
 
-var_dump($etudiant1);
+// var_dump($etudiant1);
 
 // $etudiant1->affiche();
 
