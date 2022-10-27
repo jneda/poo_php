@@ -21,7 +21,7 @@ Etudiant::afficherNombreEtudiants();
 
 $superpromo = new Licence("2003", "Pascaline Ibarnegaray");
 
-var_dump($superpromo);
+// var_dump($superpromo);
 
 // echo "hr";
 
