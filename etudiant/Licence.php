@@ -15,7 +15,6 @@ class Licence
 
   public function ajouterEtudiant($etudiant)
   {
-    // var_dump($this->listeEtudiants);
     $this->listeEtudiants[] = $etudiant;
   }
 
@@ -27,7 +26,7 @@ class Licence
     echo "<hr>";
   }
 
-  public function afficherEtudiantsReçus()
+  public function afficherEtudiantsRecus()
   {
     echo "<hr><h2>Liste des étudiants reçus</h2>";
     foreach ($this->listeEtudiants as $etudiant) {

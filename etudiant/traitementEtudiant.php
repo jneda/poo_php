@@ -30,5 +30,5 @@ $superpromo->ajouterEtudiant($etudiant2);
 
 $superpromo->afficherEtudiants();
 
-$superpromo->afficherEtudiantsReçus();
+$superpromo->afficherEtudiantsRecus();
 
