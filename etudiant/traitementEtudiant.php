@@ -23,7 +23,7 @@ $etudiant4 = new Etudiant("Denise Professeur", array());
 
 Etudiant::afficherNombreEtudiants(); // affiche 4
 
-// on instancie Licence
+// on instancie un objet de classe Licence
 
 $superpromo = new Licence("2003", "Pascaline Ibarnegaray");
 
