@@ -15,7 +15,11 @@ class Licence
 
   public function ajouterEtudiant($etudiant)
   {
-    $this->listeEtudiants[] = $etudiant;
+    // on contrôle que l'argument est valide avant de toucher à la liste
+    if (is_a($etudiant, "Etudiant")) {
+      // $this->listeEtudiants[] = $etudiant;
+      array_push($this->listeEtudiants, $etudiant); // à tester \o/
+    }
   }
 
   public function afficherEtudiants() {
